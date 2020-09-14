@@ -3,13 +3,14 @@
 
 Basic chat application based on TCP Sockets. I have implementated this using QtNetwork module.
 
-####Approach:
-1. chat-server.py needed to execute on the terminal
-2. chat.py needed to exetute on client PC.
-3. enter the hostname/ IP address on client PC. Server will establish a connection between sever and client through a socket.
-4. now send text from client to server and vise versa. 
+####Componets:
+1. chat-server.py - needed to execute on the terminal
+2. chat.py - needed to exetute on client PC.
 
 ### How to run this application
+1. execute both 'chat-server.py and chat.py'
+2. enter the hostname/ IP address on client PC. Server will establish a connection between sever and client through a socket.
+3. now send text from client to server and vise versa. 
 #### Dependancies:
 1. Python
 2. PyQt4(for GUI)
